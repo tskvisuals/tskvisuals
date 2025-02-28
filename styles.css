@@ -1,0 +1,42 @@
+/* Estilização geral do corpo */
+body {
+    background-color: #f0f0f0;
+    background-image: url('BGtskvisuals.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizar o logotipo */
+.logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estilo para o botão */
+.redirect-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-align: center;
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Cantos arredondados */
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.redirect-button:hover {
+    background-color: #45a049; /* Cor ao passar o mouse */
+}
+
+/* Centralizar o botão */
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+}
